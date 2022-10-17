@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nestjs-angular-setup/products": ["libs/products/src/index.ts"]
+      "@nestjs-angular-setup/products": ["libs/products/src/index.ts"],
+      "@nestjs-angular-setup/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

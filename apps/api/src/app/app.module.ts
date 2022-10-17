@@ -2,8 +2,10 @@ import { Module } from '@nestjs/common';
 
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { ProductsController } from 'libs/products/src/lib/products.controller';
-import { ProductsService } from 'libs/products/src/lib/products.service';
+import {
+  ProductsController,
+  ProductsService,
+} from '@nestjs-angular-setup/products';
 
 @Module({
   imports: [],
