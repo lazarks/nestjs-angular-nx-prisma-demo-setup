@@ -3,7 +3,9 @@
 ## IMPORTANT - run commands
 
 `npm start` | `nx serve ng-app` - angular application
+
 `nx serve api` - nestjs api
+
 `nx prisma studio` - prisma
 
 This project was generated using [Nx](https://nx.dev).
